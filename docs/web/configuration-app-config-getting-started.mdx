@@ -35,7 +35,7 @@ Every component within the viewer that requires functional, compositional conten
 Every component in the layout can be linked to app config with the `config` attribute. The `config` attribute is used to identify the item in the app config that has configuration for the component.
 
 :::note
-If you do not provide a `config` attribute for a component, Geocortex Web will attempt to [infer a default value](sdk-component-reference.mdx#component-defaults).
+If you do not provide a `config` attribute for a component, Geocortex Web will attempt to [infer a default value](sdk-components-reference.mdx#component-defaults).
 :::
 
 <Tabs
@@ -340,16 +340,16 @@ This article demonstrated some simple examples of layouts with buttons that affe
     <UseCaseCard
         title="Commands and Operations"
         description="Learn about commands and operations and how to configure them"
-        link="configuration-commands-operations"
+        link={useBaseUrl("docs/web/configuration-commands-operations")}
     />
     <UseCaseCard
         title="Create a Custom Theme"
         description="Learn how to create a custom theme using app config"
-        link="configuration-theme"
+        link={useBaseUrl("docs/web/configuration-theme")}
     />
     <UseCaseCard
         title="Advanced App Config Topics"
         description="Learn more about what you can accomplish with app config"
-        link="configuration-app-config-reference"
+        link={useBaseUrl("docs/web/configuration-app-config-reference")}
     />
 </UseCaseContainer>
